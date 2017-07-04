@@ -10,22 +10,6 @@ public class Block
 
 	public bool changed = true;
 
-	public enum Direction
-	{
-		north,
-		east,
-		south,
-		west,
-		up,
-		down
-	};
-
-	public struct Tile
-	{
-		public int x;
-		public int y;
-	}
-
 	public Block()
 	{
 		
